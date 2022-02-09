@@ -1,5 +1,12 @@
 body {
-  font-family: sans-serif;
+  font-family: tahoma, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#principal {
+  width: 90%;
+  margin: 0 5%;
 }
 
 li {
@@ -36,6 +43,7 @@ ul li.li3 {
 }
 
 header ul li {
+  transition: color 0.3s linear;
   margin: 15px 20px 0 0;
   font-size: 15px;
   letter-spacing: 4px;
@@ -73,7 +81,6 @@ header ul li:hover {
 #portfolio h1 {
   color: rgb(39, 39, 39);
   font-size: 40px;
-  font-weight: 5000000;
 }
 
 #portfolio p {
@@ -85,55 +92,53 @@ header ul li:hover {
 
 /* Gallery */
 #gallery {
-  margin: 10px 20px;
+  padding: 0 100px 50px 100px;
   overflow: auto;
-  box-sizing: border-box;
-  border: solid blue 2px;
 }
 
-#gallery img {
-  float: left;
+.gallery-card {
   width: 32%;
-  display: block;
-  border: solid yellow 2px;
+  float: left;
+  text-align: center;
 }
 
 #gallery h2 {
-  margin: 0;
-  font-size: 25px;
+  text-align: center;
+  margin: 15px 0 0 0;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border: solid green 2px;
 }
 
 #gallery p {
-  font-size: 20px;
-  border: solid red 2px;
+  font-size: 15px;
 }
 
 /* About */
 #about {
-  padding-left: 5%;
-  margin: 10px 10%;
-  text-align: left;
-  max-width: 80%;
+  background-color: #003d52;
+  padding-left: 100px;
+  margin: 0;
+  max-width: 100%;
   background-image: url(imagens/bg_detalhe.png);
   height: 500px;
   background-position: bottom right;
-  background-size: cover;
+  background-repeat: no-repeat;
   margin-bottom: 50px;
 }
 
 #about h1 {
+  font-weight: normal;
   padding-top: 100px;
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 45px;
   max-width: 60%;
   color: white;
 }
 
 #about p {
+  font-size: 16px;
   max-width: 40%;
   color: white;
 }
@@ -162,9 +167,9 @@ footer {
 }
 
 footer p {
-  letter-spacing: 4px;
-  font-size: 15px;
-  padding-top: 25px;
+  letter-spacing: 5px;
+  font-size: 12px;
+  padding-top: 30px;
   background-color: rgb(13, 26, 34);
   color: rgb(52, 94, 121);
   height: 50px;
