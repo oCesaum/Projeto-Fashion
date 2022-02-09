@@ -1,0 +1,171 @@
+body {
+  font-family: sans-serif;
+}
+
+li {
+  position: relative;
+}
+
+/* Este é o jeito que fez o link funcionar no li a, pego em um forum */
+li > a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* Código pra fazer o link funcionar no li a ⬆ */
+
+body h1,
+body h2 {
+  color: rgb(39, 39, 39);
+}
+
+body p {
+  color: rgb(70, 70, 70);
+}
+
+/* Header */
+header ul {
+  height: 50px;
+  margin: 0;
+  background-color: rgb(13, 26, 34);
+  text-align: right;
+}
+
+ul li.li3 {
+  padding-right: 40px;
+}
+
+header ul li {
+  margin: 15px 20px 0 0;
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgb(44, 82, 105);
+  list-style: none;
+  display: inline-block;
+}
+
+header ul li:hover {
+  color: rgb(255, 255, 255);
+}
+
+#imagem1 {
+  height: 600px;
+  background-image: url(imagens/topo.jpg);
+  background-position: left center;
+  background-size: cover;
+}
+
+#logo {
+  float: left;
+  position: relative;
+  left: 15%;
+  top: 7px;
+}
+
+/* Portfolio */
+#portfolio {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio h1 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 5000000;
+}
+
+#portfolio p {
+  line-height: 2;
+  margin: auto;
+  max-width: 85%;
+  color: rgb(70, 70, 70);
+}
+
+/* Gallery */
+#gallery {
+  margin: 10px 20px;
+  overflow: auto;
+  box-sizing: border-box;
+  border: solid blue 2px;
+}
+
+#gallery img {
+  float: left;
+  width: 32%;
+  display: block;
+  border: solid yellow 2px;
+}
+
+#gallery h2 {
+  margin: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: solid green 2px;
+}
+
+#gallery p {
+  font-size: 20px;
+  border: solid red 2px;
+}
+
+/* About */
+#about {
+  padding-left: 5%;
+  margin: 10px 10%;
+  text-align: left;
+  max-width: 80%;
+  background-image: url(imagens/bg_detalhe.png);
+  height: 500px;
+  background-position: bottom right;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+#about h1 {
+  padding-top: 100px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 40px;
+  max-width: 60%;
+  color: white;
+}
+
+#about p {
+  max-width: 40%;
+  color: white;
+}
+
+/* Contact */
+#contact {
+  text-align: center;
+}
+
+#contact h2 {
+  margin: 0;
+  text-transform: uppercase;
+  color: rgb(44, 82, 105);
+}
+
+#contact h2.secundario {
+  margin: 0 0 50px 0;
+}
+
+/* Mapa */
+
+/* Footer */
+footer {
+  margin-top: 75px;
+  text-align: center;
+}
+
+footer p {
+  letter-spacing: 4px;
+  font-size: 15px;
+  padding-top: 25px;
+  background-color: rgb(13, 26, 34);
+  color: rgb(52, 94, 121);
+  height: 50px;
+}
